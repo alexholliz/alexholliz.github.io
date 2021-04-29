@@ -28,7 +28,7 @@ twitter_username: ""
 github_username:  alexholliz
 
 # Build settings
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
