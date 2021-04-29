@@ -5,7 +5,7 @@ date:   2021-04-28 13:34:12 -0800
 categories: aws snippet
 ---
 
-Get a valid token for your target aws account. For those of us using SAML + MFA for our connections: (https://github.com/jmhale/okta-awscli)
+Get a valid token for your target aws account. For those of us using SAML + MFA for our connections: <https://github.com/jmhale/okta-awscli>
 
 Get a list of all AWS Client Vpn Endpoints in your region
 
