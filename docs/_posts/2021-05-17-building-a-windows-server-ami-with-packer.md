@@ -4,6 +4,8 @@ title:  "Building A Windows Server AMI with Packer"
 date:   2021-05-17 17:34:12 -0800
 categories: aws packer windows
 ---
+# Repo
+<https://github.com/alexholliz/packer-w2019>
 
 # Prereqs
 1. Have an AWS Account and VPC to spin stuff up in
