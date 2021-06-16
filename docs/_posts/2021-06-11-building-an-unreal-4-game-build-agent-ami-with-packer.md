@@ -89,7 +89,7 @@ Create a new *PRIVATE* bucket. S3 Buckets are globally addressable, so if you ma
 
 Install the [AWS CLI](https://aws.amazon.com/cli/)
 
-Then hope over to your home directory (where that is depends on your OS) and make the [config and credentials files](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
+Then hop over to your home directory (where that is depends on your OS) and make the [config and credentials files](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
 
 Those will look something like the following, with your S3 User's access key ID, secret access key, and region in place.
 
