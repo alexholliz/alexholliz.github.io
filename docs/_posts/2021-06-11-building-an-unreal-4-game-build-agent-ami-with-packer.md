@@ -94,14 +94,14 @@ Then hop over to your home directory (where that is depends on your OS) and make
 Those will look something like the following, with your S3 User's access key ID, secret access key, and region in place.
 
 
-~/.aws/credentials
+`~/.aws/credentials`
 ```
 [default]
 aws_access_key_id=AKIAIOSFODNN7EXAMPLE
 aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 ```
 
-~/.aws/config
+`~/.aws/config`
 ```
 [default]
 region=us-west-2
