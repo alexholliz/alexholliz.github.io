@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building Unreal 4 Game Build Agent AMI with Packer"
+title:  "Building an Unreal 4 Game Build Agent AMI with Packer"
 date:   2021-06-11 17:34:12 -0800
 categories: aws packer windows unreal
 ---
