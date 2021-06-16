@@ -79,11 +79,11 @@ If you're using a Jenkins/Bamboo/CircleCI tool, this can be used for your elasti
 
 ## S3 IAM User
 
-Create another IAM user, with a memorable s3 related name, so you can find them, and generate a second Access Key ID and Secret Access Key; this is what you'll use to push content into S3 to use during your AMI build. Assign a policy that allows R/W to S3 to that IAM User. Out of the box, that's an Amazon Provided Policy called: AmazonS3FullAccess.
+Create another IAM user, with a memorable s3 related name, so you can find them, and generate a second Access Key ID and Secret Access Key; this is what you'll use to push content into S3 to use during your AMI build. Assign a policy that allows R/W to S3 to that IAM User. Out of the box, that's an Amazon Provided Policy called `AmazonS3FullAccess`.
 
 ## S3 Bucket
 
-Create a new *PRIVATE* bucket. S3 Buckets are globally addressable, so if you make it public, people can find and pull from your S3 Bucket. This will cost you a significant amount of money. Don't do that. S3 Buckets must have a globally unique name; go ahead and give it a name that's relevant to you, and note that down, you'll need it later. Also note the region you're using, as you'll reference your S3 Bucket, and EC2 instances by region.
+Create a new *PRIVATE* bucket. S3 Buckets are globally addressable, so if you make it public, people can find and pull from your S3 Bucket. This will cost you a significant amount of money. Don't do that. S3 Buckets must have a globally unique name; go ahead and give it a name that's relevant to you, and note that down, you'll need it later. Also note the region you're using, as you'll reference your S3 Bucket and EC2 instances by region.
 
 ## Local AWS Config
 
@@ -127,7 +127,7 @@ aws s3 ls
 
 With your AWS Config and Credentials in place, this is pretty easy!
 
-1. Open up your Powershell/Cmder/Terminal etc... and change directories to the install dir for the engine you set up earlier. X:\installdir\UE_4.XX
+1. Open up your Powershell/Cmder/Terminal etc... and change directories to the install dir for the engine you set up earlier. `X:\installdir\UE_4.XX`
 2. Do an S3 sync from inside the install directory, to your bucket with a subdir of the same name
 ```
 aws s3 sync . s3://bucketname/UE_4.XX/
@@ -287,7 +287,7 @@ build {
 
 ## Provisioner Scripts
 
-These series of Powershell Scripts will install Chocolatey, a package manager that will then let us install Visual Studio, AWS CLI. Then later provisioners will pull down and set up the Unreal Engine so we can build games with this AMI.
+These series of Powershell Scripts will install Chocolatey, a package manager that will then let us install Visual Studio and the AWS CLI. Then later provisioners will pull down and set up the Unreal Engine so we can build games with this AMI.
 
 ### Disabling UAC
 
