@@ -29,6 +29,7 @@ github_username:
 
 # Build settings
 theme: minima
+favicon: favicon.ico
 plugins:
   - jekyll-feed
 
