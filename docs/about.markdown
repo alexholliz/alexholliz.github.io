@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-I'm Alex Hollis, DevOps Engineer at Gearbox Software working on Build Pipelines and Infrastructure.
+I'm Alex Hollis, Sr. Cloud Build Pipeline Engineer at Microsoft.
 
-Before Gearbox, I was a Linux Systems Engineer working with a heavy focus on Infrastructure Automation and Infrastructure as Code.
+Before Microsoft, I was a DevOps Engineer working with a heavy focus on Unreal Engine Game Build Pipelines, Infrastructure Automation, and Infrastructure as Code.
 
 I've worked in AV for live media, Webhosting and Networking for a community ISP, with deployment teams for games and web apps, on teams ranging from 3 to 30 engineers.
 
