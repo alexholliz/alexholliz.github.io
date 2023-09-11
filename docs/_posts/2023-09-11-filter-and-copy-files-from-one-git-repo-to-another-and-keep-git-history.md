@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Filter and copy files from one git repo to another and keep git history"
-date:   2023-09-11 14:47:12 -0800
+date:   2023-09-11 10:47:12 -0800
 categories: git
 ---
 
